@@ -10,9 +10,9 @@
 /* Navbar Styling */
 
 .navbar{
+    /* background: crimson; */
     position: fixed;
     width: 100%;
-    /* background: crimson; */
     font-family: Ubuntu, sans-serif;
     padding: 30px 0;
 }
