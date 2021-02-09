@@ -17,16 +17,21 @@
     padding: 30px 0;
 }
 
-.max-width{
-    max-width: 1300px;
-    margin: auto;
-    padding: 0 80px;
+.navbar.sticky{
+    background: crimson;
+    padding: 30px 0;
 }
+
 
 .navbar .max-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.max-width{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 80px;
 }
 
 .navbar .logo a{
