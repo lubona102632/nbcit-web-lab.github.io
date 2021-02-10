@@ -66,11 +66,11 @@
 
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/soha\ \(2\).jpg") no-repeat center;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
-    color: #fff;
+    color: rgb(15, 15, 15);
     min-height: 500px;
     font-family: ubuntu, sans-serif;
 }
