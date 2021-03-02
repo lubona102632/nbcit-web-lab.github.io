@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-
-/* Navbar Styling */
 
 .navbar{
     /* background: crimson; */
@@ -16,18 +14,18 @@
     font-family: Ubuntu, sans-serif;
     padding: 30px 0;
 }
-
 .navbar.sticky{
     background: crimson;
     padding: 30px 0;
+    
 }
-
 
 .navbar .max-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .max-width{
     max-width: 1300px;
     margin: auto;
@@ -40,38 +38,36 @@
     font-weight: 600;
 }
 
-.navbar .logo a span{
-    color: crimson;
-}
-
 .navbar .menu li{
-    list-style: none;
     display: inline-block;
+    list-style: none;
 }
 
 .navbar .menu li a{
-    color: #FFF;
+    color: #fff;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-    transition: color 0.3s ease;
 }
 
 .navbar .menu li a:hover{
-    color: crimson;
+    color:crimson;
+    
+}
+.navbar .menu li a{
+    transition: color 0.3s ease;
 }
 
-
-/* Home section styling */
-
+.navbar .logo a span{
+    color:crimson;
+}
 .home{
     display: flex;
-    background: url("images/soha\ \(2\).jpg") no-repeat center;
+    background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
-    color: rgb(15, 15, 15);
-    min-height: 500px;
+    color: #fff;
     font-family: ubuntu, sans-serif;
 }
 
@@ -86,12 +82,11 @@
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
-    margin-left: -3px;
 }
 
 .home .home-content .text-3{
     font-size: 40px;
-    margin: 5px 0;
+    margin: 5px 0px;
 }
 
 .home .home-content .text-3 span{
